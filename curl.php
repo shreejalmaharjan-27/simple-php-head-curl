@@ -1,6 +1,6 @@
 <?php
 //get domain query
-if (isset($_POST['form']))
+if (isset($_POST['domain']))
 {   
     //get domain from input
     $domain = $_POST['domain'];
