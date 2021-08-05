@@ -9,7 +9,7 @@ if (isset($_POST['domain']))
     if (preg_match("/^[\/:.A-Za-z0-9-]+$/", $domain)) {
                 //execute shell command
                 //debug
-                echo $domain;
+                #echo $domain;
                 $shellexec = shell_exec("curl -I $domain");
                 echo '<pre>'.$shellexec.'</pre>';
     } else {
